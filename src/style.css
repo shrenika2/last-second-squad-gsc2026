@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+/* ─── FORCE DARK MODE GLOBALLY ─────────────────────────────── */
+:root {
+  --bg-base:       #0d1117;
+  --bg-surface:    #161b27;
+  --bg-elevated:   #1e2636;
+  --border:        #2a3347;
+  --text-primary:  #e6edf3;
+  --text-muted:    #7d8fa3;
+  --accent:        #4f8ff7;
+  --accent-glow:   rgba(79, 143, 247, 0.15);
+}
+
+html {
+  background-color: var(--bg-base);
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Dark class is applied via JS: document.documentElement.classList.add('dark') */
+
+/* ─── GLOBAL TEXT COLOR OVERRIDES (Dark Theme) ──────────────── */
+/* Remap all dark slate classes → readable light equivalents      */
+
+/* Primary headings & strong text → bright white */
+.text-slate-900, .text-gray-900,
+.text-slate-800, .text-gray-800 {
+  color: #e6edf3 !important;
+}
+
+/* Body / secondary text → soft light */
+.text-slate-700, .text-gray-700 {
+  color: #c9d3df !important;
+}
+
+/* Sub-text / descriptions → muted light */
+.text-slate-600, .text-gray-600,
+.text-slate-500, .text-gray-500 {
+  color: #8b9ab0 !important;
+}
+
+/* Captions / meta text → dimmer but still readable */
+.text-slate-400, .text-gray-400 {
+  color: #60718a !important;
+}
+
+/* White text stays white */
+.text-white { color: #ffffff !important; }
+
+/* Blue accent text → bright blue for dark bg */
+.text-blue-600, .text-blue-700 { color: #60a5fa !important; }
+.text-blue-500 { color: #93c5fd !important; }
+
+/* Green stays vibrant */
+.text-green-600, .text-green-700 { color: #34d399 !important; }
+.text-green-500 { color: #6ee7b7 !important; }
+
+/* Red stays vibrant */
+.text-red-600, .text-red-700 { color: #f87171 !important; }
+
+/* Purple vibrant */
+.text-purple-600, .text-purple-700 { color: #c084fc !important; }
+
+/* Amber/yellow vibrant */
+.text-amber-500, .text-yellow-500 { color: #fbbf24 !important; }
+.text-yellow-400 { color: #facc15 !important; }
+
+/* Emerald */
+.text-emerald-500, .text-emerald-400 { color: #34d399 !important; }
+
+/* ─── CARD & SURFACE BACKGROUNDS ──────────────────────────────── */
+/* Any leftover white/light surfaces → dark surfaces */
+.bg-white  { background-color: #161b27 !important; }
+.bg-gray-50, .bg-slate-50 { background-color: #161b27 !important; }
+.bg-gray-100, .bg-slate-100 { background-color: #1e2636 !important; }
+.bg-gray-200, .bg-slate-200 { background-color: #2a3347 !important; }
+
+/* Border colours */
+.border-gray-200, .border-slate-200,
+.border-gray-100, .border-slate-100 {
+  border-color: #2a3347 !important;
+}
+.border-b, .border-t, .border-r, .border-l, .border { 
+  border-color: #2a3347;
+}
+
+/* ─── INPUT FIELDS ────────────────────────────────────────────── */
+input, textarea, select {
+  background-color: #0d1117 !important;
+  color: #e6edf3 !important;
+  border-color: #2a3347 !important;
+}
+input::placeholder, textarea::placeholder {
+  color: #60718a !important;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: #4f8ff7 !important;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(79,143,247,0.15) !important;
+}
+
+/* ─── TABLE ELEMENTS ─────────────────────────────────────────── */
+thead, .bg-slate-50 thead {
+  background-color: #0d1117 !important;
+}
+tbody tr:hover {
+  background-color: rgba(30,38,54,0.5) !important;
+}
+.divide-y > * + * {
+  border-color: #2a3347 !important;
+}
+
+/* ─── BADGE COLORS ────────────────────────────────────────────── */
+/* Ensure badge text stays sharp */
+.bg-blue-50   { background-color: rgba(59,130,246,0.15) !important; }
+.bg-green-50  { background-color: rgba(16,185,129,0.15) !important; }
+.bg-red-50    { background-color: rgba(239,68,68,0.15)  !important; }
+.bg-yellow-50 { background-color: rgba(234,179,8,0.15)  !important; }
+.bg-purple-50 { background-color: rgba(139,92,246,0.15) !important; }
+.bg-gray-50   { background-color: rgba(99,115,136,0.15) !important; }
+.bg-indigo-50 { background-color: rgba(99,102,241,0.15) !important; }
+.bg-cyan-50   { background-color: rgba(6,182,212,0.15)  !important; }
+.bg-amber-50  { background-color: rgba(245,158,11,0.15) !important; }
+
+.border-blue-100   { border-color: rgba(59,130,246,0.3)  !important; }
+.border-green-100  { border-color: rgba(16,185,129,0.3)  !important; }
+.border-red-100    { border-color: rgba(239,68,68,0.3)   !important; }
+.border-yellow-100 { border-color: rgba(234,179,8,0.3)   !important; }
+.border-purple-100 { border-color: rgba(139,92,246,0.3)  !important; }
+.border-gray-100   { border-color: rgba(99,115,136,0.3)  !important; }
+
+/* Chart/recharts text */
+.recharts-text, .recharts-legend-item-text {
+  fill: #8b9ab0 !important;
+  color: #8b9ab0 !important;
+}
+.recharts-cartesian-grid line { stroke: #2a3347 !important; }
+
+
+/* ─── SCROLLBAR ──────────────────────────────────────────────── */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-surface); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #3a4a63; }
+
+/* ─── GLASS CARD UTILITY ─────────────────────────────────────── */
+.glass {
+  background: rgba(30, 38, 54, 0.7);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--border);
+}
+
+/* ─── GLOWING ACCENT ─────────────────────────────────────────── */
+.glow-blue {
+  box-shadow: 0 0 24px var(--accent-glow), 0 0 1px var(--accent);
+}
+
+/* ─── GRADIENT TEXT ──────────────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #f472b6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── ANIMATED BACKGROUND ────────────────────────────────────── */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(79,143,247,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(79,143,247,0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* ─── PULSE ORBS ─────────────────────────────────────────────── */
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  animation: orb-float 8s ease-in-out infinite;
+  pointer-events: none;
+}
+.orb-blue  { background: rgba(79,143,247,0.18); }
+.orb-purple{ background: rgba(139,92,246,0.15); }
+.orb-pink  { background: rgba(244,114,182,0.12); }
+
+@keyframes orb-float {
+  0%,100% { transform: translateY(0) scale(1); }
+  50%      { transform: translateY(-20px) scale(1.05); }
+}
