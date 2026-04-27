@@ -248,7 +248,7 @@ Open **http://localhost:5173** in your browser.
 
 | Name | Role | Email |
 |---|---|---|
-| 👑 **Shrenika Sajjankumar Patil** | Team Leader | shrenikapatil0211@gmail.com |
+| **Shrenika Sajjankumar Patil** | Team Leader | shrenikapatil0211@gmail.com |
 | **Gargi Salunkhe** | Member | gargisalunkhe1076@gmail.com |
 | **Maruti Sarjerao Gaikwad** | Member | marutigaikwad2408@gmail.com |
 | **Tanuj Ravindra Bhoite** | Member | tanujbhoite@gmail.com |
@@ -257,7 +257,7 @@ Open **http://localhost:5173** in your browser.
 
 <div align="center">
 
-Built with ❤️ using **React**, **Google Gemini AI**, **Tailwind CSS**, and **Framer Motion**
+Built with Team — Last Second Squad |
 
 *Google Solution Challenge 2026 — Build with AI*
 *Walchand College of Engineering, Sangli*
