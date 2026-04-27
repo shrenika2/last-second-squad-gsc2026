@@ -239,11 +239,17 @@ Open **http://localhost:5173** in your browser.
 
 ---
 
-## 👩‍💻 Team
+## 👩‍💻 Team — Last Second Squad
 
-**Last Second Squad** — *Google Solution Challenge 2026*
+**Institution:** Walchand College of Engineering, Sangli
+**Branch:** B.Tech Computer Science & Engineering
 
-**Shrenika Patil** — Final Year Computer Engineering, PICT Pune
+| Name | Role | Email |
+|---|---|---|
+| 👑 **Shrenika Sajjankumar Patil** | Team Leader | shrenikapatil0211@gmail.com |
+| **Gargi Salunkhe** | Member | gargisalunkhe1076@gmail.com |
+| **Tanuj Ravindra Bhoite** | Member | tanujbhoite@gmail.com |
+| **Maruti Sarjerao Gaikwad** | Member | marutigaikwad2408@gmail.com |
 
 ---
 
@@ -252,5 +258,6 @@ Open **http://localhost:5173** in your browser.
 Built with ❤️ using **React**, **Google Gemini AI**, **Tailwind CSS**, and **Framer Motion**
 
 *Google Solution Challenge 2026 — Build with AI*
+*Walchand College of Engineering, Sangli*
 
 </div>
