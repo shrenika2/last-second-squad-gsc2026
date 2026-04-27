@@ -250,8 +250,7 @@ Open **http://localhost:5173** in your browser.
 |---|---|---|
 | 👑 **Shrenika Sajjankumar Patil** | Team Leader | shrenikapatil0211@gmail.com |
 | **Gargi Salunkhe** | Member | gargisalunkhe1076@gmail.com |
-| **Maruti Sarjerao Gaikwad** | Member | 
-marutigaikwad2408@gmail.com |
+| **Maruti Sarjerao Gaikwad** | Member | marutigaikwad2408@gmail.com |
 | **Tanuj Ravindra Bhoite** | Member | tanujbhoite@gmail.com |
 
 ---
