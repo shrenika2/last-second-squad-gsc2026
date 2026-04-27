@@ -5,7 +5,9 @@
 ![InternMatch AI](https://img.shields.io/badge/Google%20Solution%20Challenge-2026-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Gemini AI](https://img.shields.io/badge/Gemini%20AI-Powered-8E44AD?style=for-the-badge&logo=google&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Prototype%20Live-00C853?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Live%20on%20Vercel-00C853?style=for-the-badge&logo=vercel&logoColor=white)
+
+### 🌐 [Live Demo → my-react-app-beryl-mu.vercel.app](https://my-react-app-beryl-mu.vercel.app)
 
 **Team: Last Second Squad | Google Solution Challenge 2026**
 
@@ -248,8 +250,9 @@ Open **http://localhost:5173** in your browser.
 |---|---|---|
 | 👑 **Shrenika Sajjankumar Patil** | Team Leader | shrenikapatil0211@gmail.com |
 | **Gargi Salunkhe** | Member | gargisalunkhe1076@gmail.com |
+| **Maruti Sarjerao Gaikwad** | Member | 
+marutigaikwad2408@gmail.com |
 | **Tanuj Ravindra Bhoite** | Member | tanujbhoite@gmail.com |
-| **Maruti Sarjerao Gaikwad** | Member | marutigaikwad2408@gmail.com |
 
 ---
 
